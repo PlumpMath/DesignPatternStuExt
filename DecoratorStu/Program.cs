@@ -6,7 +6,6 @@ namespace DecoratorStu
 {
     class Program
     {
-        //2015年10月13日22:14:50
         static void Main(string[] args)
         {
             ConcreteComponent ConcreteComponet = new ConcreteComponent();
