@@ -65,9 +65,9 @@ namespace DecoratorStu
     {
         public override void Operation()
         {
-            //base.Operation(); 
+            base.Operation(); 
 
-            OperationComponent();
+            //OperationComponent();
 
             Console.WriteLine("Concrete Decorator A."); 
         }
@@ -77,9 +77,9 @@ namespace DecoratorStu
     {
         public override void Operation()
         {
-            //base.Operation();
+            base.Operation();
 
-            OperationComponent();
+            //OperationComponent();
 
             Console.WriteLine("Concrete Decorator B."); 
         }
