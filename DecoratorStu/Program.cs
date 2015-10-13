@@ -14,7 +14,6 @@ namespace DecoratorStu
             DecoratorA.SetComponent(ConcreteComponet);
             DecoratorB.SetComponent(DecoratorA);
             DecoratorB.Operation();
-
             Console.ReadLine();
         }
     }
