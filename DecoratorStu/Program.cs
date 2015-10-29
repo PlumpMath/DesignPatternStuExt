@@ -48,14 +48,14 @@ namespace DecoratorStu
             }
         }
 
-        public void OperationComponent()
-        {
-            if (component != null)
-            {
-                Console.WriteLine("=" + this.ToString());
-                component.Operation();
-            }
-        }
+        //public void OperationComponent()
+        //{
+        //    if (component != null)
+        //    {
+        //        Console.WriteLine("=" + this.ToString());
+        //        component.Operation();
+        //    }
+        //}
     }
 
     public class ConcreteDecoratorA : Decorator
